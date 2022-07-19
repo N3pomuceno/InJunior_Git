@@ -42,8 +42,8 @@ git show <commit> : Função que mostra de forma ultra detalhada as modificaçõ
 
 -------------------------------------------------------
 
-git diff
-git diff <commit1> <commit2>
+git diff : Faz a comparação entre o que está na área de trabalho e commit mais recente.
+git diff <commit1> <commit2> : Faz a comparação entre os dois commits especificados, alterações em linhas, novos arquivos, etc.
 
 -------------------------------------------------------
 
