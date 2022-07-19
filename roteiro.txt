@@ -31,9 +31,9 @@ git commit -m “Primeiro commit” : Comando para fazer o commit com a descriç
 
 -------------------------------------------------------
 
-git log
-git log arquivo
-git reflog
+git log : Função que mostra o histórico de commits de forma detalhada.
+git log arquivo : Função que mostra o histórico de commits de forma detalhada do arquivo. 
+git reflog : Função que mostra o histórico de commits de forma compacta.
 
 -------------------------------------------------------
 
