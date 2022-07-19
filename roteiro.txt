@@ -37,8 +37,8 @@ git reflog : Função que mostra o histórico de commits de forma compacta.
 
 -------------------------------------------------------
 
-git show
-git show <commit>
+git show : Função que mostra objetos, pode ser commits, árvores e tags.
+git show <commit> : Função que mostra de forma ultra detalhada as modificações do commit.
 
 -------------------------------------------------------
 
