@@ -47,38 +47,38 @@ git diff <commit1> <commit2> : Faz a comparação entre os dois commits especifi
 
 -------------------------------------------------------
 
-git reset --hard <commit>
+git reset --hard <commit> : Desfaz todas as alterações feitas até o commit especificado.
 
 -------------------------------------------------------
 
-git branch
-git branch -r 
-git branch -a
-git branch -d <branch_name> 
-git branch -D <branch_name> 
-git branch -m <nome_novo>
-git branch -m <nome_antigo> <nome_novo>
+git branch : Listagem de todas as branches locais.
+git branch -r : Listagem de todas as branches remotas.
+git branch -a : Mostra todas as branches, locais ou remotas.
+git branch -d <branch_name> : Faz uma remoção de uma branch local.
+git branch -D <branch_name> : Força uma remoção de uma branch local.
+git branch -m <nome_novo> : Renomeia Branch atual.
+git branch -m <nome_antigo> <nome_novo> : Renomeia a branch especificada no <nome_antigo> para <nome_novo>.
 
 -------------------------------------------------------
 
-git checkout <branch_name> 
-git checkout -b <branch_name> 
+git checkout <branch_name> : Muda para a outra branch.
+git checkout -b <branch_name> : Cria uma nova branch e já faz um checkout para a mesma.
 
 -------------------------------------------------------
 
-git merge <branch_name> 
+git merge <branch_name> : Funde a branch atual com a branch especificada.
 
 -------------------------------------------------------
 
-git clone
-git pull
-git push
+git clone : Faz a clonagem do repositório dado pela URL ou pelo repositório local, para o repositório corrente.
+git pull : Repositório local é atualizado com os dados do repositório remoto.
+git push : Repositório remoto é atualizado com os dados commitados do repositório corrente.
 
 -------------------------------------------------------
 
-git remote -v
-git remote add origin <url>
-git remote <url> origin
+git remote -v : Faz a listagem dos servidores remotos que o repositório está usando associados com a URL.
+git remote add origin <url> : Adiciona um repositório remoto com o nome de "origin" dpa url definida.
+git remote <url> origin : Faz a troca da URL do servidor 'origin' para a nova URL informada.
 
 --------------------------------------------------------
 
