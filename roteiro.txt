@@ -20,7 +20,7 @@ git config --global core.editor 'code --wait' -> Vscode para editor padrão (pre
 -------------------------------------------------------
 
 
-git init
+git init : Inicializar o git no repositório
 
 git status
 
