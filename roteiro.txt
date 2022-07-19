@@ -2,8 +2,8 @@ git help: Mostra vários comandos de forma resumida
 
 git help <comando>: Mostra detalhes de um comando específico
 
-git config --global user.name “Seu Nome”
-git config --global user.email “seuemaill@gmail.com”   (Usar o mesmo email do gitlab)
+git config --global user.name “Seu Nome” : Adiciona o nome do usuário que está utilizando o git
+git config --global user.email “seuemaill@gmail.com”   (Usar o mesmo email do gitlab) : Adiciona o email do usuário que está utilizando o git
  
 Para o repositório atual: --local;
 Para o Usuário: --global;
@@ -20,14 +20,14 @@ git config --global core.editor 'code --wait' -> Vscode para editor padrão (pre
 -------------------------------------------------------
 
 
-git init : Inicializar o git no repositório
+git init : Inicializa o git no repositório atual.
 
-git status
+git status : Verifica os status de acompanhamento dos diretórios e arquivos do repositório atual.
 
-git add arquivo/diretório
-git add --all = git add .
+git add arquivo/diretório : Adiciona o arquivo àqueles que estão preparados para serem commitados.
+git add --all = git add . : Adiciona todo arquivo e diretório para serem commitados.
 
-git commit -m “Primeiro commit”
+git commit -m “Primeiro commit” : Comando para fazer o commit com a descrição de "Primeiro commit".
 
 -------------------------------------------------------
 
